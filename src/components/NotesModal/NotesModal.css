@@ -1,0 +1,102 @@
+/* NOTES MODAL */
+.note-editor {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50rem;
+  background: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.note-editor-header {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--black-color);
+}
+
+.note-editor-title {
+  font-size: var(--font-size-3);
+}
+
+.note-title {
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 100%;
+  resize: none;
+}
+
+.note-editor-options {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-editor-label {
+  font-size: var(--font-size-5);
+  margin-right: 0.5rem;
+  color: var(--black-color);
+}
+
+select {
+  font-family: inherit;
+  font-size: var(--font-size-6);
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+option:hover {
+  cursor: pointer;
+}
+
+.note-editor-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* MODAL COLORS */
+
+.note-text.white > .ql-snow {
+  background-color: #f4f4f4;
+}
+
+.note-text.green > .ql-snow {
+  background-color: #93c572;
+}
+
+.note-text.red > .ql-snow {
+  background-color: #ef5354;
+}
+
+.note-text.yellow > .ql-snow {
+  background-color: #edc126;
+}
+
+.note-text.blue > .ql-snow {
+  background-color: #51e1ed;
+}
+
+.note-text.orange > .ql-snow {
+  background-color: #ed9121;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  .note-editor {
+    width: 33rem;
+  }
+
+  .note-editor-options {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .note-editor-footer {
+    padding: 0 0.5rem;
+  }
+}

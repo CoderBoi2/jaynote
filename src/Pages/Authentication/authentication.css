@@ -1,0 +1,128 @@
+.login-section,
+.signup-section {
+  height: 100vh;
+  background: radial-gradient(var(--secondary-color), var(--primary-color));
+}
+
+.login-section {
+  height: 100vh;
+  padding-top: 10rem;
+}
+
+.section-form,
+.section-img {
+  flex: 1;
+}
+
+.section-form,
+.section-img {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.signup-form {
+  margin-top: 5rem;
+}
+
+form {
+  max-width: 350px;
+  padding: 2rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  background-color: var(--secondary-color);
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-size: var(--font-size-1);
+  margin: 0.5em;
+  color: var(--lynx-gray-color);
+}
+
+.form-group {
+  padding: 0.5rem;
+  position: relative;
+}
+
+.form-group input {
+  padding: 1rem;
+  border-radius: 20px;
+  border: 0.1rem solid var(--lynx-gray-color);
+  width: 100%;
+  margin: 0.5em;
+}
+
+.form-group .eye-icon {
+  position: absolute;
+  font-size: var(--font-size-4);
+  top: 2rem;
+  right: 1.2rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.form-group input:focus + svg {
+  color: var(--primary-color);
+}
+
+.err-msg {
+  font-size: var(--font-size-7);
+  color: var(--danger-color);
+}
+
+.check-remember {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-group,
+.checkbox-group-signup {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group-signup {
+  width: 30rem;
+  font-size: var(--font-size-7);
+}
+
+.checkbox-group input,
+.checkbox-group-signup input {
+  width: fit-content;
+  z-index: 1;
+}
+
+.checkbox-group label {
+  font-size: var(--font-size-6);
+}
+
+.terms {
+  font-size: var(--font-size-6);
+  padding: 2em;
+}
+
+.form-link {
+  text-decoration: underline;
+  font-weight: var(--font-weight-3);
+  color: var(--primary-color);
+  font-size: var(--font-size-6);
+  margin-left: 0.5rem;
+}
+
+.login-text,
+.register-text {
+  font-size: var(--font-size-6);
+}
+
+.eye-icon:hover,
+.eye-icon {
+  color: var(--primary-color);
+  cursor: pointer;
+}

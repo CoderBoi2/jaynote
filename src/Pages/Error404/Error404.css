@@ -1,0 +1,12 @@
+.error-404-contianer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error-img {
+  width: 35rem;
+  height: 35rem;
+}

@@ -1,0 +1,41 @@
+/* ADD LABEL MODAL */
+.add-label-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20rem;
+  height: 13rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  background: var(--secondary-color);
+  padding: 1rem;
+  z-index: 1;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--black-color);
+}
+
+.close-btn {
+  font-size: var(--font-size-5);
+  cursor: pointer;
+}
+
+.modal-title {
+  font-size: var(--font-size-5);
+}
+
+.new-label-text {
+  padding: 0.3rem;
+  margin: 1rem 0;
+}
+
+.add-label-btn {
+  margin: 0.5rem;
+  align-self: center;
+}

@@ -1,0 +1,50 @@
+.btn {
+  background-color: transparent;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  max-width: fit-content;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  margin: 1em;
+  border-radius: 20px;
+  filter: brightness(100%);
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+.btn:hover {
+  filter: brightness(110%);
+  transform: scale(1.1);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+}
+
+.btn-danger {
+  background: var(--danger-color);
+}
+
+/* backgrounds */
+.danger-bg {
+  background-color: var(--danger-color);
+}
+
+.success-bg {
+  background-color: var(--success-color);
+}
+
+/* colors */
+.primary {
+  color: var(--primary-color);
+}
+
+.danger {
+  color: var(--danger-color);
+}
+
+/* margins */
+.margin-right {
+  margin-right: var(--margin-right);
+}

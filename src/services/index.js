@@ -1,0 +1,14 @@
+export { loginService } from "./authServices/login.service";
+export { signUpService } from "./authServices/signup.service";
+export { addNoteService } from "./notesServices/addNote.service";
+export { getNotesService } from "./notesServices/getNotes.service";
+export { editNoteService } from "./notesServices/editNote.service";
+export { addToArchivesService } from "./archiveServices/addToArchives.service";
+export { getArchivesService } from "./archiveServices/getArchives.service";
+export { restoreFromArchives } from "./archiveServices/restoreFromArchives.service";
+export { getTrashService } from "./trashServices/getTrash.service";
+export { deleteFromArchiveService } from "./archiveServices/deleteFromArchive.service";
+export { deleteNoteService } from "./notesServices/deleteNote.service";
+export { restoreFromTrashService } from "./trashServices/restoreFromTrash.service";
+export { removeFromTrashService } from "./trashServices/removeFromTrash.service";
+export { pinNoteService } from "./notesServices/pinNote.service";

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  max-width: fit-content;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  cursor: pointer;
+}

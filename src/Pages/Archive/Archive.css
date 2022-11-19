@@ -1,0 +1,25 @@
+.main-section {
+  max-width: 1300px;
+  height: 100%;
+  display: flex;
+}
+
+.section-title-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.section-title {
+  font-size: var(--font-size-3);
+  position: relative;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  width: 12rem;
+  height: 0.4rem;
+  bottom: -1rem;
+  border-radius: 0.25rem;
+  background: var(--primary-color);
+}

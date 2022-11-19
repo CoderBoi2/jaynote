@@ -1,0 +1,78 @@
+.main-section {
+  max-width: 1300px;
+  height: 100%;
+  display: flex;
+}
+
+.notes-content {
+  width: 100%;
+}
+
+/* NOTES SECTION TITLE */
+
+.notes-section-title {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.notes-title-text {
+  display: flex;
+  align-items: center;
+}
+
+.notes-page-title {
+  font-size: var(--font-size-1);
+}
+
+.notes-subtitle {
+  font-size: var(--font-size-5);
+  color: var(--lynx-gray-color);
+  font-weight: var(--font-weight-2);
+  margin-left: 1rem;
+}
+
+/* NOTES PAGE ACTIONS */
+
+.notes-page-actions {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* NOTES*/
+
+.cards-container {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
+  grid-gap: 2rem;
+}
+
+/* UTILS */
+.no-max-width {
+  max-width: none;
+}
+
+/* WRAPPERS*/
+
+.note-editor-wrapper,
+.label-backdrop {
+  backdrop-filter: blur(2px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #80808085;
+  transform: scale(0);
+  transition: transform 0.3s ease-in-out;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.note-editor-wrapper.modal-active,
+.label-backdrop.modal-active {
+  transform: scale(1);
+}

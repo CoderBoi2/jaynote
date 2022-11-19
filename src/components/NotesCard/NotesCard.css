@@ -1,0 +1,124 @@
+.notes-card {
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  color: var(--black-color);
+}
+
+.notes-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notes-card-header-side {
+  display: flex;
+}
+
+.thumb-icon {
+  font-size: var(--font-size-4);
+  font-weight: font-weight(font-weight-3);
+}
+
+.note-icon {
+  font-size: var(--font-size-5);
+}
+
+.note-icon:hover {
+  color: var(--primary-color);
+}
+
+.notes-card-title {
+  font-size: var(--font-size-4);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.notes-card-text {
+  padding-top: 0.3rem;
+  height: 200px;
+  font-size: var(--font-size-6);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+.notes-card-footer {
+  margin-top: auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.priority,
+.label {
+  font-size: var(--font-size-6);
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 0.2rem 0.5rem;
+  width: max-content;
+  border-radius: 10px;
+}
+
+.priority {
+  text-transform: uppercase;
+  margin: 0 1rem;
+}
+
+.notes-creation-details {
+  color: var(--lynx-gray-color);
+  font-size: var(--font-size-6);
+}
+
+.notes-card-footer-actions {
+  display: flex;
+}
+
+.notes-card-footer-actions {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.notes-card-footer-actions i {
+  font-size: var(--font-size-5);
+  color: var(--lynx-gray-color);
+}
+
+.notes-card-action {
+  color: var(--lynx-gray-color);
+}
+
+.notes-card-action:hover i {
+  color: var(--primary-color);
+}
+
+/* COLORS */
+.notes-card.white {
+  background-color: #f4f4f4;
+}
+
+.notes-card.green {
+  background-color: #93c572;
+}
+
+.notes-card.yellow {
+  background-color: #edc126;
+}
+
+.notes-card.red {
+  background-color: #ef5354;
+}
+
+.notes-card.blue {
+  background-color: #51e1ed;
+}
+
+.notes-card.orange {
+  background-color: #ed9121;
+}
